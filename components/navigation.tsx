@@ -38,13 +38,13 @@ export default function Navigation({
             <FaGithubSquare />
           </Link>
           <Link
-            href="https://github.com/Mihailghrgh"
+            href="https://www.linkedin.com/in/gheorghe-mihail-1558191a4/"
             className="text-3xl font-medium tracking-wider hover:text-white/80 transition-colors"
           >
             <FaLinkedin />
           </Link>
           <Link
-            href="https://github.com/Mihailghrgh"
+            href="https://www.instagram.com/michael.99_/"
             className="text-3xl font-medium tracking-wider hover:text-white/80 transition-colors"
           >
             <FaInstagram />
