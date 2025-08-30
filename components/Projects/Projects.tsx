@@ -19,6 +19,7 @@ const projectImages = [
   "news.png",
   "/project4.png",
   "/project5.png",
+  "/project8.png",
   "/project6.png",
   "/project7.png",
 ];
@@ -59,11 +60,9 @@ const ProjectsSection = ({ heading = "Gallery" }: Gallery6Props) => {
   return (
     <section className="py-20 bg-black border-t border-white/10">
       <div className="container max-w-6xl mx-auto px-6">
-        <div className="mb-8 flex flex-col justify-between md:mb-14 md:flex-row md:items-end lg:mb-16">
-          <div>
-            <h2 className="section-header mb-3 text-3xl font-light md:mb-4 md:text-4xl lg:mb-6 text-white">
-              {heading}
-            </h2>
+        <div className="mb-8 flex flex-col justify-between md:mb-14 md:flex-row lg:mb-16">
+          <div className="flex items-end text-4xl text-white">
+            <h1>{heading}</h1>
           </div>
           <div className="mt-8 flex shrink-0 items-center justify-start gap-2">
             <Button
@@ -104,7 +103,7 @@ const ProjectsSection = ({ heading = "Gallery" }: Gallery6Props) => {
           className="relative left-[-1rem]"
         >
           <CarouselContent className="-mr-4 ml-8 2xl:ml-[max(8rem,calc(50vw-700px+1rem))] 2xl:mr-[max(0rem,calc(50vw-700px-1rem))]">
-            {projectsEnglish.map((item: GalleryItem , index) => (
+            {projectsEnglish.map((item: GalleryItem, index) => (
               <CarouselItem
                 key={item.id}
                 className="pl-4 md:max-w-[452px] work-item"

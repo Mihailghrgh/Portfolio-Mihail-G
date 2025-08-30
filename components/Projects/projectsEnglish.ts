@@ -49,6 +49,14 @@ export const projectsEnglish = [
   },
   {
     id: "item-7",
+    title: "Termoinstal SRL Website",
+    summary:
+      "Website made for a freelance professional working in the business of repairing, installation of thermal devices",
+    url: "https://administratiesrl.netlify.app/",
+    image: "/project5.png",
+  },
+  {
+    id: "item-7",
     title: "App similar to WhatsApp",
     summary:
       "This project was made as a personal journey to understand and create an app for instant messages and live-calls with another person",
@@ -56,7 +64,7 @@ export const projectsEnglish = [
     image: "/project6.png",
   },
   {
-    id: "item-8",
+    id: "item-9",
     title: "App for Safely Login",
     summary:
       "This project includes the latest technologies in creating a Safely login / signup workflow with JWT tokens",

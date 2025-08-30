@@ -17,7 +17,9 @@ import { servicesRomanian } from "@/components/TextFiles/servicesRomanian";
 import { ProjectsSection } from "@/components/Projects/Projects";
 import { textEnglish, textRomanian } from "@/components/magicui/textEnglish";
 import { skills } from "@/components/TextFiles/techstack";
-// Register GSAP plugins
+import porftolioItems from '../components/PortfolioItems/portfolio-items'
+import Portfolio from "../components/PortfolioItems/portfolio-items";
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -237,8 +239,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div>
+        <Portfolio />
+      </div>
 
-      <section
+      {/* <section
         ref={servicesRef}
         className="bg-black px-6 py-20 border-t border-white/10"
       >
@@ -254,7 +259,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <ProjectsSection
         heading={
@@ -264,8 +269,8 @@ export default function Home() {
         }
       />
 
-      <section className="bg-black pt-4 px-6 border-t border-white/10">
-        <div className="max-w-4xl mx-auto">
+      <section className="bg-black px-6 border-t border-white/10">
+        <div className="max-w-6xl pt-8 text-center mx-auto section-header">
           <h2 className="section-header text-3xl md:text-4xl font-light mb-16">
             {language === "english" ? "About me" : "Despre mine"}
           </h2>
