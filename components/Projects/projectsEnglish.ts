@@ -1,5 +1,21 @@
 export const projectsEnglish = [
   {
+    id: "item-33",
+    title: "Data Visualization WebApp",
+    summary:
+      "Web application to visualize statistical data on an interactive map for topics like Crime, Earthquakes, Rain, Wind etc.The application is made as an alternative to Statista and their price model.",
+    url: "https://marco-polo.vercel.app/",
+    image: "/1.png",
+  },
+  {
+    id: "item-33",
+    title: "Workshop-Wearhouse Website redesign",
+    summary:
+      "A redesigned for Workshop-Wearhouse and their website which was outdate and as part of my work for them created a visual fluent design to improve the UI/UX experience.",
+    url: "https://workshop-wearhouse.vercel.app/",
+    image: "/2.png",
+  },
+  {
     id: "item-1",
     title: "DACON Shine Bright",
     summary:
