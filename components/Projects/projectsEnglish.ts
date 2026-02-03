@@ -16,6 +16,14 @@ export const projectsEnglish = [
     image: "/2.png",
   },
   {
+    id: "item-3",
+    title: "E-commerce Website Design",
+    summary:
+      "Fashionable design, perfect for a e-commerce platform site, completed with sign-up, payment processing, review section, forms and more!",
+    url: "https://furniture-shopping-eta.vercel.app/",
+    image: "/project3.png",
+  },
+  {
     id: "item-1",
     title: "DACON Shine Bright",
     summary:
@@ -31,22 +39,7 @@ export const projectsEnglish = [
     url: "https://regina-olteniei-bank.netlify.app/",
     image: "/project2.png",
   },
-  {
-    id: "item-3",
-    title: "E-commerce Website Design",
-    summary:
-      "Fashionable design, perfect for a e-commerce platform site, completed with sign-up, payment processing, review section, forms and more!",
-    url: "https://furniture-shopping-eta.vercel.app/",
-    image: "/project3.png",
-  },
-  {
-    id: "item-4",
-    title: "News Agency Website design",
-    summary:
-      "Catchy and simple, a good design as an example for a website that wants to promote stories, news, blogs, etc.",
-    url: "https://bucuresti-news-demo.netlify.app/",
-    image: "/project3.png",
-  },
+
   {
     id: "item-5",
     title: "Tourism Website Design",
@@ -60,14 +53,6 @@ export const projectsEnglish = [
     title: "Damil Admin Website",
     summary:
       "Website made for an firm dealing with administrating proprieties, including forms submission, services section, integrated maps to find the business",
-    url: "https://administratiesrl.netlify.app/",
-    image: "/project5.png",
-  },
-  {
-    id: "item-7",
-    title: "Termoinstal SRL Website",
-    summary:
-      "Website made for a freelance professional working in the business of repairing, installation of thermal devices",
     url: "https://administratiesrl.netlify.app/",
     image: "/project5.png",
   },

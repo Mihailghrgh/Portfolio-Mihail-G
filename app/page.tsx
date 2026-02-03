@@ -17,7 +17,7 @@ import { servicesRomanian } from "@/components/TextFiles/servicesRomanian";
 import { ProjectsSection } from "@/components/Projects/Projects";
 import { textEnglish, textRomanian } from "@/components/magicui/textEnglish";
 import { skills } from "@/components/TextFiles/techstack";
-import porftolioItems from '../components/PortfolioItems/portfolio-items'
+import porftolioItems from "../components/PortfolioItems/portfolio-items";
 import Portfolio from "../components/PortfolioItems/portfolio-items";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -39,25 +39,25 @@ export default function Home() {
     tl.fromTo(
       headlineRef2.current,
       { opacity: 0, y: 50 },
-      { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" }
+      { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" },
     );
 
     tl.fromTo(
       headlineRef1.current,
       { opacity: 0, y: 50 },
-      { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" }
+      { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" },
     )
       .fromTo(
         tickerRef.current,
         { opacity: 0, x: -100 },
         { opacity: 1, x: 0, duration: 1, ease: "power3.out" },
-        "-=0.8"
+        "-=0.8",
       )
       .fromTo(
         subtitleRef.current,
         { opacity: 0, y: 20 },
         { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" },
-        "-=0.6"
+        "-=0.6",
       );
 
     // Services cards stagger animation
@@ -75,7 +75,7 @@ export default function Home() {
           start: "top 80%",
           end: "bottom 20%",
         },
-      }
+      },
     );
 
     // Work items animation
@@ -92,7 +92,7 @@ export default function Home() {
           trigger: workRef.current,
           start: "top 80%",
         },
-      }
+      },
     );
 
     // Process steps animation
@@ -109,7 +109,7 @@ export default function Home() {
           trigger: processRef.current,
           start: "top 80%",
         },
-      }
+      },
     );
 
     // Section headers animation
@@ -125,7 +125,7 @@ export default function Home() {
           trigger: ".section-header",
           start: "top 85%",
         },
-      }
+      },
     );
 
     // Testimonial cards animation
@@ -142,7 +142,7 @@ export default function Home() {
           trigger: ".testimonial-card",
           start: "top 80%",
         },
-      }
+      },
     );
 
     // Cleanup
@@ -271,9 +271,6 @@ export default function Home() {
 
       <section className="bg-black px-6 border-t border-white/10">
         <div className="max-w-6xl pt-8 text-center mx-auto section-header">
-          <h2 className="section-header text-3xl md:text-4xl font-light mb-16">
-            {language === "english" ? "About me" : "Despre mine"}
-          </h2>
           <TextReveal
             text1={language === "english" ? textEnglish : textRomanian}
             className="text-white/80"
