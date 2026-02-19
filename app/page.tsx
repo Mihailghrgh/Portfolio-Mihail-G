@@ -184,7 +184,7 @@ export default function Home() {
               ref={headlineRef2}
               className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight mb-8 text-left"
             >
-              Mihail Gheorghe
+              Michael George
             </h1>
           </div>
           <div>
@@ -192,13 +192,9 @@ export default function Home() {
               ref={headlineRef1}
               className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight mb-8 text-left"
             >
-              {language === "english"
-                ? "Crafting Website Designs"
-                : "Creează un Website"}
+              Creating Designs
               <br />
-              {language === "english"
-                ? "That Drives Results"
-                : "Care aduce Rezultate"}
+              That Drives Results
             </h1>
           </div>
         </div>
