@@ -87,14 +87,6 @@ export default function Navigation({
                 </li>
               ))}
             </ul>
-
-            <div className="mt-16 pt-8 border-t border-white/20">
-              <div className="space-y-4 text-white/60">
-                <p className="text-sm">Get in touch</p>
-                <p className="text-lg">hello@voicetwoo.agency</p>
-                <p className="text-lg">+1 (555) 123-4567</p>
-              </div>
-            </div>
           </nav>
         </div>
       )}
